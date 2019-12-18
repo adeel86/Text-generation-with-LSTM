@@ -1,5 +1,5 @@
 # Text generation with LSTM
-This deep learning project for text generation with LSTM is written in Jupyter notebooks. I have added all source in text file. You need to copy and paste this code in Jupyter notebooks and execute it.
+This deep learning project for text generation with LSTM is written in Jupyter notebooks. I have added all source in text file. You need to copy and paste this code in Jupyter notebooks and execute it step by step while reading the readme file.
 
 ## Implementing character-level LSTM text generation
 Let's put these ideas in practice in a Keras implementation. The first thing I need is a lot of text data that I can use to learn a language model. You could use any sufficiently large text file or set of text files -- Wikipedia, the Lord of the Rings, etc. In this example I will use some of the writings of Nietzsche, the late-19th century German philosopher (translated to English). The language model I will learn will thus be specifically a model of Nietzsche's writing style and topics of choice, rather than a more generic model of the English language.
