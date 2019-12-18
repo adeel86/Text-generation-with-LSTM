@@ -11,7 +11,7 @@ Let's start by downloading the corpus and converting it to lowercase. After exec
 Corpus length: 600893
 ```
 
-Next, I will extract partially-overlapping sequences of length maxlen, one-hot encode them and pack them in a 3D Numpy array x of shape (sequences, maxlen, unique_characters). Simultaneously, I prepare a array y containing the corresponding targets: the one-hot encoded characters that come right after each extracted sequence. Code is available at [data_preparing_2](https://github.com/adeel86/Text-generation-with-LSTM/blob/master/data_preparing_2). The output will look likes:
+Next, I will extract partially-overlapping sequences of length maxlen, one-hot encode them and pack them in a 3D Numpy array x of shape (sequences, maxlen, unique_characters). Simultaneously, I prepare a array y containing the corresponding targets: the one-hot encoded characters that come right after each extracted sequence. Code is available at [data_preparing_2](https://github.com/adeel86/Text-generation-with-LSTM/blob/master/data_preparing_2.txt). The output will look likes:
 
 ```
 Number of sequences: 200278
