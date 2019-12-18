@@ -1,0 +1,8 @@
+from keras import layers
+
+model = keras.models.Sequential()
+model.add(layers.LSTM(128, input_shape=(maxlen, len(chars))))
+model.add(layers.Dense(len(chars), activation='softmax'))
+
+optimizer = keras.optimizers.RMSprop(lr=0.01)
+model.compile(loss='categorical_crossentropy', optimizer=optimizer)
