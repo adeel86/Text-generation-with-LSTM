@@ -1,4 +1,4 @@
-# Text generation with LSTM¶ 
+# Text generation with LSTM
 This deep learning project for text generation with LSTM is written in Jupyter notebooks. 
 
 ## Implementing character-level LSTM text generation
